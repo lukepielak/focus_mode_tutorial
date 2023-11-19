@@ -9,11 +9,9 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
-
   "background": {
     "service_worker": "background.js"
   },
-
   "action": {
     "default_icon": {
       "16": "images/icon-16.png",
@@ -22,16 +20,13 @@
       "128": "images/icon-128.png"
     }
   },
-
-  "permissions": ["activeTab", "scripting"],
-
+  "permissions": ["scripting", "activeTab"],
   "commands": {
-      "_execute_action": {
-        "suggested_key": {
-          "default": "Ctrl+B",
-          "mac": "Command+B"
-        }
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
       }
     }
-
+  }
 }
